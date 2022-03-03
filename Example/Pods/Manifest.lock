@@ -1,0 +1,16 @@
+PODS:
+  - QTLLogin (0.1.0)
+
+DEPENDENCIES:
+  - QTLLogin (from `../`)
+
+EXTERNAL SOURCES:
+  QTLLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QTLLogin: da60ca5bf00df2b4dfd52c8ec091d093a7099095
+
+PODFILE CHECKSUM: 4f1d47618f626462d1e4afc5c340c8ffe90c4f10
+
+COCOAPODS: 1.11.2

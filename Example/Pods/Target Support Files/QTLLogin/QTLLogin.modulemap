@@ -1,0 +1,6 @@
+framework module QTLLogin {
+  umbrella header "QTLLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

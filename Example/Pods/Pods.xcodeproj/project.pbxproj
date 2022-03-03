@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A488CD583912A83219A8674B9D1B517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1858F4517CF100B90CDD2B3E0623DF29 /* Pods-QTLLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD30B6BA6B14C90E488C68E56836A5DA /* Pods-QTLLogin_Tests-dummy.m */; };
+		445A5AD8BB11EB3EC7DC11891A0C2CE2 /* Pods-QTLLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A3AD66295334C558F3C08D973E479B /* Pods-QTLLogin_Example-dummy.m */; };
+		67BE48F3FE00045C6D639C145216E41B /* QTLLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C147FE0D25B26F0F5E2964DE397538F1 /* QTLLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEC4C64CB44F50B7B3D6BB54AA790DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9267D5C6014AC015E6DDB9F4DF325952 /* Pods-QTLLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB8234D4BEAD7BA4D048C75DD50E0FD /* Pods-QTLLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF5D98721D942483D2A3D812BFE8A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E65B95B409D251B6A298ED01C0BD9FB5 /* QTLLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C489812A6834D9F1D6316FC8C0BA8 /* QTLLogin-dummy.m */; };
+		E8806AA32759553524DE0441C4EF2093 /* Pods-QTLLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261957A475692AD7C23C78ED8C76EC41 /* Pods-QTLLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F152E80105A60AE8F1B84606BA1CAD37 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A4499D7D84FB90C248681F1DEAB945 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147A760059FA365E06EB0E3AB88A891B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BD268D40E5F8EC35F0DB5B193793D8;
+			remoteInfo = QTLLogin;
+		};
+		3B427779E5942390DA123E80724B6A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF3D22CFF98EB34852296DE33CEF079;
+			remoteInfo = "Pods-QTLLogin_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0059B6FA96DB5B0BF5A03AF0228E1FE2 /* QTLLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLLogin-Info.plist"; sourceTree = "<group>"; };
+		14A3AD66295334C558F3C08D973E479B /* Pods-QTLLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTLLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		1971B168A8F3FA089BD9AD6785DADDAB /* Pods-QTLLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QTLLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		1EEF9483A6104BA04BFD684F12487406 /* Pods-QTLLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		224FC7F4C7658A8846A1242EA350B950 /* Pods-QTLLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		261957A475692AD7C23C78ED8C76EC41 /* Pods-QTLLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTLLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		46E3B9C1171549E7B5FBEF777026CAE1 /* Pods-QTLLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB8234D4BEAD7BA4D048C75DD50E0FD /* Pods-QTLLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTLLogin_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E4757754E5D6E8C0F6D3BDBE3DACFAE /* Pods-QTLLogin_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QTLLogin_Tests"; path = Pods_QTLLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5146A8E1FB4A901B1E9EE513120F4DA5 /* Pods-QTLLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTLLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59F322FD9FC8D718921B601DFAA7B47C /* Pods-QTLLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTLLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74419979BED188D2FFC2C31E303B9BA8 /* QTLLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLLogin.debug.xcconfig; sourceTree = "<group>"; };
+		7646F1A2F14BE3B9146232000A2A7AE5 /* Pods-QTLLogin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QTLLogin_Example"; path = Pods_QTLLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A4499D7D84FB90C248681F1DEAB945 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = QTLLogin/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8D8225AB8F83B4DDE8C2FAE683F02C34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		951C489812A6834D9F1D6316FC8C0BA8 /* QTLLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLLogin-dummy.m"; sourceTree = "<group>"; };
+		96C4A1703389DEC60791D37FAAB99471 /* QTLLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLLogin.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF6D3E13F62482CCB6A2690679460ADA /* Pods-QTLLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC73ACEBEEFAE43547B6C735C4586D17 /* QTLLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QTLLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD3EAB7DEB970A4580E4A014F4E84875 /* Pods-QTLLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTLLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C147FE0D25B26F0F5E2964DE397538F1 /* QTLLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLLogin-umbrella.h"; sourceTree = "<group>"; };
+		C556C8083A15AE7EC6CB3B54990FE36F /* Pods-QTLLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE3B2AE91D748D65A30EBBC114462DAC /* Pods-QTLLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		D0B8135149F89E45EF6E63DBA179F62B /* QTLLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLLogin-prefix.pch"; sourceTree = "<group>"; };
+		D821AE534263F6F846A366D176ED1915 /* QTLLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLLogin.release.xcconfig; sourceTree = "<group>"; };
+		D976756914ED719CA12E606434F859DE /* Pods-QTLLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB69E5E43BC71861BAC97B70DA308C6F /* Pods-QTLLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCFBF265FFF2A7E783BF4BB1477B78DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD30B6BA6B14C90E488C68E56836A5DA /* Pods-QTLLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTLLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		E82FD0C5DD78B49A039C09CFBFD47FCB /* Pods-QTLLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QTLLogin_Example.modulemap"; sourceTree = "<group>"; };
+		F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLLogin; path = QTLLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3A7B4D804FA384AC3D133874197563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEC4C64CB44F50B7B3D6BB54AA790DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CED088C14A57ADE3E8441D64EFBC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A488CD583912A83219A8674B9D1B517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1708824935DB6DBE15C76C5DFCC8A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF5D98721D942483D2A3D812BFE8A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FF60CF2450C965FC881ECC83766CCB /* Pods-QTLLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1971B168A8F3FA089BD9AD6785DADDAB /* Pods-QTLLogin_Tests.modulemap */,
+				59F322FD9FC8D718921B601DFAA7B47C /* Pods-QTLLogin_Tests-acknowledgements.markdown */,
+				DB69E5E43BC71861BAC97B70DA308C6F /* Pods-QTLLogin_Tests-acknowledgements.plist */,
+				DD30B6BA6B14C90E488C68E56836A5DA /* Pods-QTLLogin_Tests-dummy.m */,
+				CE3B2AE91D748D65A30EBBC114462DAC /* Pods-QTLLogin_Tests-Info.plist */,
+				261957A475692AD7C23C78ED8C76EC41 /* Pods-QTLLogin_Tests-umbrella.h */,
+				46E3B9C1171549E7B5FBEF777026CAE1 /* Pods-QTLLogin_Tests.debug.xcconfig */,
+				C556C8083A15AE7EC6CB3B54990FE36F /* Pods-QTLLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-QTLLogin_Tests";
+			path = "Target Support Files/Pods-QTLLogin_Tests";
+			sourceTree = "<group>";
+		};
+		4489059A40AD73005FEDB4F1F69A3698 /* Pods-QTLLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E82FD0C5DD78B49A039C09CFBFD47FCB /* Pods-QTLLogin_Example.modulemap */,
+				5146A8E1FB4A901B1E9EE513120F4DA5 /* Pods-QTLLogin_Example-acknowledgements.markdown */,
+				1EEF9483A6104BA04BFD684F12487406 /* Pods-QTLLogin_Example-acknowledgements.plist */,
+				14A3AD66295334C558F3C08D973E479B /* Pods-QTLLogin_Example-dummy.m */,
+				BD3EAB7DEB970A4580E4A014F4E84875 /* Pods-QTLLogin_Example-frameworks.sh */,
+				224FC7F4C7658A8846A1242EA350B950 /* Pods-QTLLogin_Example-Info.plist */,
+				4AB8234D4BEAD7BA4D048C75DD50E0FD /* Pods-QTLLogin_Example-umbrella.h */,
+				AF6D3E13F62482CCB6A2690679460ADA /* Pods-QTLLogin_Example.debug.xcconfig */,
+				D976756914ED719CA12E606434F859DE /* Pods-QTLLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-QTLLogin_Example";
+			path = "Target Support Files/Pods-QTLLogin_Example";
+			sourceTree = "<group>";
+		};
+		4709C1C774A1EC1FB91F59757486B94F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D8225AB8F83B4DDE8C2FAE683F02C34 /* LICENSE */,
+				BC73ACEBEEFAE43547B6C735C4586D17 /* QTLLogin.podspec */,
+				DCFBF265FFF2A7E783BF4BB1477B78DC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C981EC839D95E6F62C35BBB0BA28092 /* QTLLogin */ = {
+			isa = PBXGroup;
+			children = (
+				76A4499D7D84FB90C248681F1DEAB945 /* ReplaceMe.swift */,
+				4709C1C774A1EC1FB91F59757486B94F /* Pod */,
+				EF9E7D6E13CFF48A9800B96E7CB89F79 /* Support Files */,
+			);
+			name = QTLLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F6819AA63906AD6D8902D022602F75C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C981EC839D95E6F62C35BBB0BA28092 /* QTLLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A754C030BCBD2E5EE218093B2E93B796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7646F1A2F14BE3B9146232000A2A7AE5 /* Pods-QTLLogin_Example */,
+				4E4757754E5D6E8C0F6D3BDBE3DACFAE /* Pods-QTLLogin_Tests */,
+				F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F6819AA63906AD6D8902D022602F75C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A754C030BCBD2E5EE218093B2E93B796 /* Products */,
+				F81503AED9FBC4442A690D4EF141E592 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9E7D6E13CFF48A9800B96E7CB89F79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C4A1703389DEC60791D37FAAB99471 /* QTLLogin.modulemap */,
+				951C489812A6834D9F1D6316FC8C0BA8 /* QTLLogin-dummy.m */,
+				0059B6FA96DB5B0BF5A03AF0228E1FE2 /* QTLLogin-Info.plist */,
+				D0B8135149F89E45EF6E63DBA179F62B /* QTLLogin-prefix.pch */,
+				C147FE0D25B26F0F5E2964DE397538F1 /* QTLLogin-umbrella.h */,
+				74419979BED188D2FFC2C31E303B9BA8 /* QTLLogin.debug.xcconfig */,
+				D821AE534263F6F846A366D176ED1915 /* QTLLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QTLLogin";
+			sourceTree = "<group>";
+		};
+		F81503AED9FBC4442A690D4EF141E592 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4489059A40AD73005FEDB4F1F69A3698 /* Pods-QTLLogin_Example */,
+				04FF60CF2450C965FC881ECC83766CCB /* Pods-QTLLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50AF73D4BE1AB1A59FDDFFF50A0532C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9267D5C6014AC015E6DDB9F4DF325952 /* Pods-QTLLogin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0416FA147427EED0DFE3F79B1FFF655 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8806AA32759553524DE0441C4EF2093 /* Pods-QTLLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4B412195743A2BAA5F609A04D15B3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BE48F3FE00045C6D639C145216E41B /* QTLLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D423B6B39B1DE28E75771FCD8B9999 /* Build configuration list for PBXNativeTarget "QTLLogin" */;
+			buildPhases = (
+				CC4B412195743A2BAA5F609A04D15B3B /* Headers */,
+				FC15852B879F8454FF4C0DBE57C45C58 /* Sources */,
+				0E3A7B4D804FA384AC3D133874197563 /* Frameworks */,
+				801FE25C05B6DC6AACCD401FD0C24485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLLogin;
+			productName = QTLLogin;
+			productReference = F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */;
+			productType = "com.apple.product-type.framework";
+		};
+		D973166C343C2238C4E8E74CD9710652 /* Pods-QTLLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C213CBCF5CE1F6A3365088B069035A /* Build configuration list for PBXNativeTarget "Pods-QTLLogin_Tests" */;
+			buildPhases = (
+				A0416FA147427EED0DFE3F79B1FFF655 /* Headers */,
+				C0B2F8F5BB3087CE39CDFF5EBC22A00D /* Sources */,
+				63CED088C14A57ADE3E8441D64EFBC00 /* Frameworks */,
+				19865C0A36133E7F5EC61066F390B2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE0FA1979ABA77E4F483CF1F321243B /* PBXTargetDependency */,
+			);
+			name = "Pods-QTLLogin_Tests";
+			productName = Pods_QTLLogin_Tests;
+			productReference = 4E4757754E5D6E8C0F6D3BDBE3DACFAE /* Pods-QTLLogin_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEF3D22CFF98EB34852296DE33CEF079 /* Pods-QTLLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AC25CD379CEFF227B9A3D0240AA6A3 /* Build configuration list for PBXNativeTarget "Pods-QTLLogin_Example" */;
+			buildPhases = (
+				50AF73D4BE1AB1A59FDDFFF50A0532C2 /* Headers */,
+				CA937B0DD9E2C01C5E60502CC85530B4 /* Sources */,
+				A1708824935DB6DBE15C76C5DFCC8A0A /* Frameworks */,
+				C478A44065418F469E8A14847D0C84D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608503B66E22FE20A3A1D2D394129512 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTLLogin_Example";
+			productName = Pods_QTLLogin_Example;
+			productReference = 7646F1A2F14BE3B9146232000A2A7AE5 /* Pods-QTLLogin_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A754C030BCBD2E5EE218093B2E93B796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF3D22CFF98EB34852296DE33CEF079 /* Pods-QTLLogin_Example */,
+				D973166C343C2238C4E8E74CD9710652 /* Pods-QTLLogin_Tests */,
+				82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19865C0A36133E7F5EC61066F390B2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801FE25C05B6DC6AACCD401FD0C24485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C478A44065418F469E8A14847D0C84D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B2F8F5BB3087CE39CDFF5EBC22A00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858F4517CF100B90CDD2B3E0623DF29 /* Pods-QTLLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA937B0DD9E2C01C5E60502CC85530B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445A5AD8BB11EB3EC7DC11891A0C2CE2 /* Pods-QTLLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15852B879F8454FF4C0DBE57C45C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65B95B409D251B6A298ED01C0BD9FB5 /* QTLLogin-dummy.m in Sources */,
+				F152E80105A60AE8F1B84606BA1CAD37 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE0FA1979ABA77E4F483CF1F321243B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QTLLogin_Example";
+			target = FEF3D22CFF98EB34852296DE33CEF079 /* Pods-QTLLogin_Example */;
+			targetProxy = 3B427779E5942390DA123E80724B6A1B /* PBXContainerItemProxy */;
+		};
+		608503B66E22FE20A3A1D2D394129512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLLogin;
+			target = 82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */;
+			targetProxy = 147A760059FA365E06EB0E3AB88A891B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049E6B5BD66B31524EC3F7AFD500CB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74419979BED188D2FFC2C31E303B9BA8 /* QTLLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLLogin/QTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLLogin/QTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QTLLogin/QTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = QTLLogin;
+				PRODUCT_NAME = QTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		319146C044AC46B7E90F558161FEAC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D976756914ED719CA12E606434F859DE /* Pods-QTLLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLLogin_Example/Pods-QTLLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLLogin_Example/Pods-QTLLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65134FDA6750FA839531D6E6B6466367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C556C8083A15AE7EC6CB3B54990FE36F /* Pods-QTLLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLLogin_Tests/Pods-QTLLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLLogin_Tests/Pods-QTLLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79866F190A66FFA9AD88BB633A360A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E3B9C1171549E7B5FBEF777026CAE1 /* Pods-QTLLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLLogin_Tests/Pods-QTLLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLLogin_Tests/Pods-QTLLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6CAB6C59D28C8D96CCEAB98F5D2F175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D821AE534263F6F846A366D176ED1915 /* QTLLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLLogin/QTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLLogin/QTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QTLLogin/QTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = QTLLogin;
+				PRODUCT_NAME = QTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F291C0358E335E14A22F2079DA7013F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6D3E13F62482CCB6A2690679460ADA /* Pods-QTLLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLLogin_Example/Pods-QTLLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLLogin_Example/Pods-QTLLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C213CBCF5CE1F6A3365088B069035A /* Build configuration list for PBXNativeTarget "Pods-QTLLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79866F190A66FFA9AD88BB633A360A60 /* Debug */,
+				65134FDA6750FA839531D6E6B6466367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AC25CD379CEFF227B9A3D0240AA6A3 /* Build configuration list for PBXNativeTarget "Pods-QTLLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F291C0358E335E14A22F2079DA7013F9 /* Debug */,
+				319146C044AC46B7E90F558161FEAC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D423B6B39B1DE28E75771FCD8B9999 /* Build configuration list for PBXNativeTarget "QTLLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E6B5BD66B31524EC3F7AFD500CB2D /* Debug */,
+				B6CAB6C59D28C8D96CCEAB98F5D2F175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

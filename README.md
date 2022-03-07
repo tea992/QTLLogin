@@ -22,7 +22,7 @@ pod 'QTLLogin'
 
 ## Author
 
-tea992, 18055313337@163.com
+tea992, 270490106@qq.com
 
 ## License
 

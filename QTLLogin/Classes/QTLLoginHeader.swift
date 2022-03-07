@@ -6,7 +6,25 @@
 //
 
 import SnapKit
+import TEACommon
 
 public func QTLLoginImageName(_ name:String) -> UIImage {
-    return UIImage(named: "QTLLogin.bundle/\(name)") ?? UIImage()
+    let bundle = Bundle.local
+    if let bundleURL = bundle.url(forResource: "QTLLogin", withExtension: "bundle") {
+        let sourceBundle = Bundle(url: bundleURL)
+        return UIImage(named: name, in: sourceBundle, compatibleWith: nil) ?? UIImage()
+    }
+    return UIImage()
 }
+
+extension Bundle {
+    static var local: Bundle {
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
+        return Bundle(for: QTLLoginHeader.self)
+        #endif
+    }
+}
+
+private class QTLLoginHeader {}

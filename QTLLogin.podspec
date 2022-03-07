@@ -24,16 +24,15 @@ TODO: 登录模块
   s.homepage         = 'https://github.com/tea992/QTLLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tea992' => '18055313337@163.com' }
+  s.author           = { 'tea992' => '270490106@qq.com' }
   s.source           = { :git => 'https://github.com/tea992/QTLLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'QTLLogin/Classes/**/*'
-#  s.resources = ['QTLLogin/*.bundle']
   s.resource_bundles = {
-    'QTLLogin' => ['QTLLogin/*.bundle']
+    'QTLLogin' => ['QTLLogin/Assets/*.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -41,5 +40,6 @@ TODO: 登录模块
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'TEAUIKit'
   s.dependency 'QTLMediator'
+  s.dependency 'TEACommon'
   
 end
